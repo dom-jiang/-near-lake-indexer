@@ -281,6 +281,6 @@ async def main():
         await handle_streamer_message(streamer_message)
 
 
-logger.add("near_lake_nft_dcl.log")
+logger.add("near_lake_dcl.log")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
